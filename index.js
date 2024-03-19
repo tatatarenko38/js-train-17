@@ -107,7 +107,7 @@ console.log(
  */
 function findWordOccurrences(str, word) {
   // Створення регулярного виразу для пошуку слова з флагами 'g та 'i',
-  const regex = new RegExp(word, "g", "i");
+  const regex = new RegExp(word, "gi");
   // Створюємо пустий масив matches, та змінну match без значення
   let matches = [];
   let match = 0;
